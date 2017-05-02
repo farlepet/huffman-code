@@ -1,22 +1,22 @@
 import java.io.*;
 
 /**
- * \brief Reads from a Reader interface one bit at time
+ * \brief Reads from an InputStream interface one bit at time
  */
-public class BitReader {
-    private Reader reader; ///< Where to read bytes from
+public class BitInputStream {
+    private InputStream input; ///< Where to read bytes from
     
     private int currentByte;    ///< Current byte we are reading from
     private int currentBitMask; ///< Current bit we are reading from
 
     /**
-     * \brief Creates a new instance of BitReader attached to the given Reader
+     * \brief Creates a new instance of BitReader attached to the given InputStream
      * 
-     * @param reader Reader from which to read from
+     * @param input InputStream from which to read from
      */
-    public BitReader(Reader reader) {
-        if(reader == null) throw new IllegalArgumentException("BitReader.BitReader(Reader): reader is null!");
-        this.reader         = reader;
+    public BitInputStream(InputStream input) {
+        if(input == null) throw new IllegalArgumentException("BitInputStream.BitInputStream(InputStream): input is null!");
+        this.input          = input;
         this.currentBitMask = 0;
     }
 
@@ -27,7 +27,7 @@ public class BitReader {
      */
     public int read() throws IOException {
         if(this.currentBitMask == 0) {
-            this.currentByte = this.reader.read();
+            this.currentByte = this.input.read();
             if(this.currentByte < 0) return -1;
             this.currentBitMask = 0x80;
         }
@@ -40,9 +40,9 @@ public class BitReader {
     }
 
     /**
-     * \brief Close the Reader
+     * \brief Close the InputStream
      */
     public void close() throws IOException {
-        this.reader.close();
+        this.input.close();
     }
 }
