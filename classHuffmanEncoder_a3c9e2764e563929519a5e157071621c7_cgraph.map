@@ -1,0 +1,6 @@
+<map id="HuffmanEncoder.HuffmanEncoder" name="HuffmanEncoder.HuffmanEncoder">
+<area shape="rect" id="node2" href="$classHuffman.html#a32ae6582411770d2910e41fd72282e6e" title="Huffman.generateMap" alt="" coords="273,56,424,83"/>
+<area shape="rect" id="node3" href="$classHuffmanTreeItem.html#adef586322ad8e2f6e5611fe3fbf55e92" title="HuffmanTreeItem.getValue" alt="" coords="481,5,659,32"/>
+<area shape="rect" id="node4" href="$classHuffmanTreeItem.html#a32c6d4cd8485dae55a2e29b22f602ba0" title="HuffmanTreeItem.getLeftChild" alt="" coords="472,56,668,83"/>
+<area shape="rect" id="node5" href="$classHuffmanTreeItem.html#afb4df5de91e5fde4cdf1ad652c2188e2" title="HuffmanTreeItem.getRight\lChild" alt="" coords="483,107,657,149"/>
+</map>
