@@ -1,7 +1,7 @@
 import java.util.*;
 
 /**
- * Facilitates the encoding of values to Huffman codes
+ * \brief Facilitates the encoding of values to Huffman codes
  */
 public class HuffmanEncoder<T> {
     private Huffman<T> huffman; ///< Huffman instance
@@ -9,7 +9,7 @@ public class HuffmanEncoder<T> {
     Map<T,String> valueToCode; ///< Map mapping values to code strings
 
     /**
-     * Creates a new instance of HuffmanEncoder using the given Huffman object
+     * \brief Creates a new instance of HuffmanEncoder using the given Huffman object
      * 
      * @param huffman Huffman instance to gather codes from
      */
@@ -22,14 +22,14 @@ public class HuffmanEncoder<T> {
     }
 
     /**
-     * Retrieves map from Huffman class, and updates the instance variable
+     * \brief Retrieves map from Huffman class, and updates the instance variable
      */
     public void updateMap() {
         this.valueToCode = this.huffman.generateMap();
     }
 
     /**
-     * Encodes an array of values to a string of 1's and 0's
+     * \brief Encodes an array of values to a string of 1's and 0's
      * 
      * @param input Input array of values to encode
      * @return output String of codes

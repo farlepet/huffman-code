@@ -2,20 +2,20 @@ import java.util.*;
 import java.math.*;
 
 /**
- * Represents and creates Huffman code trees
+ * \brief Represents and creates Huffman code trees
  */
 public class HuffmanTree<T> {
     private ArrayList<HuffmanTreeItem<T>> treeItems; ///< List of items currently in the tree
 
     /**
-     * Create a new HuffmanTree instance
+     * \brief Create a new HuffmanTree instance
      */
     public HuffmanTree() {
         this.treeItems = new ArrayList<HuffmanTreeItem<T>>();
     }
 
     /**
-     * Add value to the tree, or increment it's count
+     * \brief Add value to the tree, or increment it's count
      * 
      * @param val Value to add
      */
@@ -33,7 +33,7 @@ public class HuffmanTree<T> {
     }
 
     /**
-     * Returns the average count for every tree item
+     * \brief Returns the average count for every tree item
      */
     private BigInteger getAverageCount() {
         BigInteger sum = BigInteger.ZERO;
@@ -48,7 +48,7 @@ public class HuffmanTree<T> {
     }
 
     /**
-     * Generates a tree from the given tree items
+     * \brief Generates a tree from the given tree items
      */
     public HuffmanTreeItem<T> generateTree() {
         ArrayList<HuffmanTreeItem<T>> tree;;

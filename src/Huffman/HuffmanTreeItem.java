@@ -1,7 +1,7 @@
 import java.math.*;
 
 /**
- * Represents an item in a Huffman tree
+ * \brief Represents an item in a Huffman tree
  */
 public class HuffmanTreeItem<T> implements Comparable<HuffmanTreeItem<T>> {
     private T value;          ///< Value of item
@@ -11,7 +11,7 @@ public class HuffmanTreeItem<T> implements Comparable<HuffmanTreeItem<T>> {
     private HuffmanTreeItem<T> rightChild; ///< Child on the right side, or null
 
     /**
-     * Create new HuffmanTreeItem instance with the given value and count
+     * \brief Create new HuffmanTreeItem instance with the given value and count
      * 
      * @param value Value
      * @param count Count
@@ -27,7 +27,7 @@ public class HuffmanTreeItem<T> implements Comparable<HuffmanTreeItem<T>> {
     }
 
     /**
-     * Create new HuffmanTreeItem instance with the given value and a count of one
+     * \brief Create new HuffmanTreeItem instance with the given value and a count of one
      * 
      * @param value Value
      */
@@ -36,45 +36,45 @@ public class HuffmanTreeItem<T> implements Comparable<HuffmanTreeItem<T>> {
     }
 
     /**
-     * Create new HuffmanTreeItem instance with a value of null and a count of one
+     * \brief Create new HuffmanTreeItem instance with a value of null and a count of one
      */
     public HuffmanTreeItem() { this(null); }
 
     /**
-     * Increment the count by one.
+     * \brief Increment the count by one.
      */
     public void incCount() { this.count = this.count.add(BigInteger.ONE); }
 
     /**
-     * Returns the current count
+     * \brief Returns the current count
      * 
      * @return Current count
      */
     public BigInteger getCount() { return this.count; }
 
     /**
-     * Returns the item's value
+     * \brief Returns the item's value
      * 
      * @return The item's value
      */
     public T          getValue() { return this.value; }
 
     /**
-     * Returns the left child
+     * \brief Returns the left child
      * 
      * @return The left child
      */
     public HuffmanTreeItem<T> getLeftChild()  { return this.leftChild; }
 
     /**
-     * Returns the right child
+     * \brief Returns the right child
      * 
      * @return The right child
      */
     public HuffmanTreeItem<T> getRightChild() { return this.rightChild; }
 
     /**
-     * Sets the count based on the count of it's children
+     * \brief Sets the count based on the count of it's children
      */
     public void setCountFromChildren() {
         this.count = BigInteger.ZERO;
@@ -83,7 +83,7 @@ public class HuffmanTreeItem<T> implements Comparable<HuffmanTreeItem<T>> {
     }
 
     /**
-     * Sets the left child
+     * \brief Sets the left child
      * 
      * @param treeItem Value of left child
      */
@@ -92,7 +92,7 @@ public class HuffmanTreeItem<T> implements Comparable<HuffmanTreeItem<T>> {
     }
     
     /**
-     * Sets the right child
+     * \brief Sets the right child
      * 
      * @param treeItem Value of right child
      */
@@ -101,7 +101,7 @@ public class HuffmanTreeItem<T> implements Comparable<HuffmanTreeItem<T>> {
     }
 
     /**
-     * Compares count to another HuffmanTreeItem
+     * \brief Compares count to another HuffmanTreeItem
      * 
      * @param obj HuffmanTreeItem object to compare to
      * @return BigInteger comparison of this count and obj's count

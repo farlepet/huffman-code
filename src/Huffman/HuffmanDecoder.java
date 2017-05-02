@@ -1,7 +1,7 @@
 import java.util.*;
 
 /**
- * Facilitates of decoding strings of huffman codes into their origional values
+ * \brief Facilitates of decoding strings of huffman codes into their origional values
  */
 public class HuffmanDecoder<T> {
     private Huffman<T> huffman; ///< Huffman instance
@@ -11,7 +11,7 @@ public class HuffmanDecoder<T> {
     int longestKey = 0; ///< Longest Huffman code, used for errorchecking
 
     /**
-     * Creates a new instance of HuffmanDecoder using the given Huffman object
+     * \brief Creates a new instance of HuffmanDecoder using the given Huffman object
      * 
      * @param huffman Huffman instance to gather codes from
      */
@@ -24,7 +24,7 @@ public class HuffmanDecoder<T> {
     }
 
     /**
-     * Retrieves map from Huffman class, reverses the map, finds the longest code, and updates instance
+     * \brief Retrieves map from Huffman class, reverses the map, finds the longest code, and updates instance
      * variables accordingly.
      */
     public void updateMap() {
@@ -49,7 +49,7 @@ public class HuffmanDecoder<T> {
     }
 
     /**
-     * Decodes the string of Huffman codes into a list of values.
+     * \brief Decodes the string of Huffman codes into a list of values.
      * 
      * @param code String of Huffman codes
      * @return ArrayList of decoded values
