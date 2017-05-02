@@ -1,0 +1,6 @@
+<map id="HuffmanTree.generateTree" name="HuffmanTree.generateTree">
+<area shape="rect" id="node2" href="$classHuffmanTreeItem.html#a5ceacacf55c98f06a036f8e165af53ac" title="HuffmanTreeItem.setLeftChild" alt="" coords="231,5,427,32"/>
+<area shape="rect" id="node3" href="$classHuffmanTreeItem.html#ad5c6518e297af7e9b46b48928e95bba5" title="HuffmanTreeItem.setRight\lChild" alt="" coords="241,57,416,98"/>
+<area shape="rect" id="node4" href="$classHuffmanTreeItem.html#a140622c7d5f611ed3b240f38b0ca0f43" title="HuffmanTreeItem.setCount\lFromChildren" alt="" coords="239,122,418,163"/>
+<area shape="rect" id="node5" href="$classHuffmanTreeItem.html#a0a851dc6b3b39dda741c4f3562777d61" title="HuffmanTreeItem.getCount" alt="" coords="475,129,653,156"/>
+</map>
