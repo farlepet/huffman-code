@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['huffman',['Huffman',['../classHuffman.html',1,'Huffman&lt; T &gt;'],['../classHuffman.html#a9c5fc020a3173be83848bd0a70872713',1,'Huffman.Huffman()']]],
-  ['huffmancompress',['HuffmanCompress',['../classHuffmanCompress.html',1,'']]],
-  ['huffmandecoder',['HuffmanDecoder',['../classHuffmanDecoder.html',1,'HuffmanDecoder&lt; T &gt;'],['../classHuffmanDecoder.html#a9d482cdeabf0d239fca7b52ebb155afe',1,'HuffmanDecoder.HuffmanDecoder()']]],
-  ['huffmanencoder',['HuffmanEncoder',['../classHuffmanEncoder.html',1,'HuffmanEncoder&lt; T &gt;'],['../classHuffmanEncoder.html#a3c9e2764e563929519a5e157071621c7',1,'HuffmanEncoder.HuffmanEncoder()']]],
-  ['huffmantree',['HuffmanTree',['../classHuffmanTree.html',1,'HuffmanTree&lt; T &gt;'],['../classHuffmanTree.html#a13587149b1303655b1a7913311787246',1,'HuffmanTree.HuffmanTree()']]],
-  ['huffmantreeitem',['HuffmanTreeItem',['../classHuffmanTreeItem.html',1,'HuffmanTreeItem&lt; T &gt;'],['../classHuffmanTreeItem.html#abaf93b203671253db1cdc4f19e82c6a5',1,'HuffmanTreeItem.HuffmanTreeItem(T value, BigInteger count)'],['../classHuffmanTreeItem.html#a11481406ee65aec9e8acbebf3ca41350',1,'HuffmanTreeItem.HuffmanTreeItem(T value)'],['../classHuffmanTreeItem.html#aa7e1c65c63b2432ae150f8c87746d938',1,'HuffmanTreeItem.HuffmanTreeItem()']]]
+  ['generatemap',['generateMap',['../classHuffman.html#a32ae6582411770d2910e41fd72282e6e',1,'Huffman']]],
+  ['generatetree',['generateTree',['../classHuffman.html#a1c355fa48970173425237c958c5c27cd',1,'Huffman.generateTree()'],['../classHuffmanTree.html#ae47190ff29b899d649c0dab686988ecc',1,'HuffmanTree.generateTree()']]],
+  ['getcount',['getCount',['../classHuffmanTreeItem.html#a0a851dc6b3b39dda741c4f3562777d61',1,'HuffmanTreeItem']]],
+  ['getleftchild',['getLeftChild',['../classHuffmanTreeItem.html#a32c6d4cd8485dae55a2e29b22f602ba0',1,'HuffmanTreeItem']]],
+  ['getrightchild',['getRightChild',['../classHuffmanTreeItem.html#afb4df5de91e5fde4cdf1ad652c2188e2',1,'HuffmanTreeItem']]],
+  ['getvalue',['getValue',['../classHuffmanTreeItem.html#adef586322ad8e2f6e5611fe3fbf55e92',1,'HuffmanTreeItem']]]
 ];
