@@ -82,11 +82,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a5fbfc55263a3c4832bac430c9cd4ecc7"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHuffmanEncoder.html#a5fbfc55263a3c4832bac430c9cd4ecc7">encode</a> (T[] input)</td></tr>
 <tr class="memdesc:a5fbfc55263a3c4832bac430c9cd4ecc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes an array of values to a string of 1's and 0's.  <a href="#a5fbfc55263a3c4832bac430c9cd4ecc7">More...</a><br /></td></tr>
 <tr class="separator:a5fbfc55263a3c4832bac430c9cd4ecc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accb42cd3e68921d98e54e9cb3275550c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHuffmanEncoder.html#accb42cd3e68921d98e54e9cb3275550c">encode</a> (T[] input, <a class="el" href="classBitOutputStream.html">BitOutputStream</a> output)</td></tr>
+<tr class="memdesc:accb42cd3e68921d98e54e9cb3275550c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes an array of values to a bit stream.  <a href="#accb42cd3e68921d98e54e9cb3275550c">More...</a><br /></td></tr>
+<tr class="separator:accb42cd3e68921d98e54e9cb3275550c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Facilitates the encoding of values to <a class="el" href="classHuffman.html" title="Represents a Huffman code map generator. ">Huffman</a> codes. </p>
 
-<p class="definition">Definition at line <a class="el" href="HuffmanEncoder_8java_source.html#l00006">6</a> of file <a class="el" href="HuffmanEncoder_8java_source.html">HuffmanEncoder.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HuffmanEncoder_8java_source.html#l00007">7</a> of file <a class="el" href="HuffmanEncoder_8java_source.html">HuffmanEncoder.java</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3c9e2764e563929519a5e157071621c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c9e2764e563929519a5e157071621c7">&#9670;&nbsp;</a></span>HuffmanEncoder()</h2>
@@ -112,7 +115,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="HuffmanEncoder_8java_source.html#l00016">16</a> of file <a class="el" href="HuffmanEncoder_8java_source.html">HuffmanEncoder.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HuffmanEncoder_8java_source.html#l00017">17</a> of file <a class="el" href="HuffmanEncoder_8java_source.html">HuffmanEncoder.java</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -129,7 +132,7 @@ Here is the call graph for this function:</div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a5fbfc55263a3c4832bac430c9cd4ecc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fbfc55263a3c4832bac430c9cd4ecc7">&#9670;&nbsp;</a></span>encode()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fbfc55263a3c4832bac430c9cd4ecc7">&#9670;&nbsp;</a></span>encode() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153,7 +156,55 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>output String of codes </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="HuffmanEncoder_8java_source.html#l00037">37</a> of file <a class="el" href="HuffmanEncoder_8java_source.html">HuffmanEncoder.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HuffmanEncoder_8java_source.html#l00038">38</a> of file <a class="el" href="HuffmanEncoder_8java_source.html">HuffmanEncoder.java</a>.</p>
+
+</div>
+</div>
+<a id="accb42cd3e68921d98e54e9cb3275550c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accb42cd3e68921d98e54e9cb3275550c">&#9670;&nbsp;</a></span>encode() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classHuffmanEncoder.html">HuffmanEncoder</a>&lt; T &gt;.encode </td>
+          <td>(</td>
+          <td class="paramtype">T []&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classBitOutputStream.html">BitOutputStream</a>&#160;</td>
+          <td class="paramname"><em>output</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Encodes an array of values to a bit stream. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">input</td><td>Input array of values to encode </td></tr>
+    <tr><td class="paramname">output</td><td>Bit stream to write codes to </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>output String of codes </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="HuffmanEncoder_8java_source.html#l00057">57</a> of file <a class="el" href="HuffmanEncoder_8java_source.html">HuffmanEncoder.java</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classHuffmanEncoder_accb42cd3e68921d98e54e9cb3275550c_cgraph.png" border="0" usemap="#classHuffmanEncoder_accb42cd3e68921d98e54e9cb3275550c_cgraph" alt=""/></div>
+<map name="classHuffmanEncoder_accb42cd3e68921d98e54e9cb3275550c_cgraph" id="classHuffmanEncoder_accb42cd3e68921d98e54e9cb3275550c_cgraph">
+<area shape="rect" id="node2" href="classBitOutputStream.html#a285bedfee8c3469e96c97df5adf13698" title="Write bit. " alt="" coords="219,5,369,32"/>
+</map>
+</div>
 
 </div>
 </div>

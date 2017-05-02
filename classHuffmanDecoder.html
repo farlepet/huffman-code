@@ -82,11 +82,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:afa062b432ceb4a4df977e80e96c08bd8"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHuffmanDecoder.html#afa062b432ceb4a4df977e80e96c08bd8">decode</a> (String code)</td></tr>
 <tr class="memdesc:afa062b432ceb4a4df977e80e96c08bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decodes the string of <a class="el" href="classHuffman.html" title="Represents a Huffman code map generator. ">Huffman</a> codes into a list of values.  <a href="#afa062b432ceb4a4df977e80e96c08bd8">More...</a><br /></td></tr>
 <tr class="separator:afa062b432ceb4a4df977e80e96c08bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e951a5ea204b7c96ca1f676c5d77121"><td class="memItemLeft" align="right" valign="top">ArrayList&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHuffmanDecoder.html#a6e951a5ea204b7c96ca1f676c5d77121">decode</a> (<a class="el" href="classBitInputStream.html">BitInputStream</a> input)</td></tr>
+<tr class="memdesc:a6e951a5ea204b7c96ca1f676c5d77121"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decodes the bit stream of <a class="el" href="classHuffman.html" title="Represents a Huffman code map generator. ">Huffman</a> codes into a list of values.  <a href="#a6e951a5ea204b7c96ca1f676c5d77121">More...</a><br /></td></tr>
+<tr class="separator:a6e951a5ea204b7c96ca1f676c5d77121"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Facilitates of decoding strings of huffman codes into their origional values. </p>
 
-<p class="definition">Definition at line <a class="el" href="HuffmanDecoder_8java_source.html#l00006">6</a> of file <a class="el" href="HuffmanDecoder_8java_source.html">HuffmanDecoder.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HuffmanDecoder_8java_source.html#l00007">7</a> of file <a class="el" href="HuffmanDecoder_8java_source.html">HuffmanDecoder.java</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9d482cdeabf0d239fca7b52ebb155afe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d482cdeabf0d239fca7b52ebb155afe">&#9670;&nbsp;</a></span>HuffmanDecoder()</h2>
@@ -112,7 +115,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="HuffmanDecoder_8java_source.html#l00018">18</a> of file <a class="el" href="HuffmanDecoder_8java_source.html">HuffmanDecoder.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HuffmanDecoder_8java_source.html#l00019">19</a> of file <a class="el" href="HuffmanDecoder_8java_source.html">HuffmanDecoder.java</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -126,7 +129,7 @@ Here is the call graph for this function:</div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="afa062b432ceb4a4df977e80e96c08bd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa062b432ceb4a4df977e80e96c08bd8">&#9670;&nbsp;</a></span>decode()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afa062b432ceb4a4df977e80e96c08bd8">&#9670;&nbsp;</a></span>decode() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -150,7 +153,44 @@ Here is the call graph for this function:</div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>ArrayList of decoded values </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="HuffmanDecoder_8java_source.html#l00057">57</a> of file <a class="el" href="HuffmanDecoder_8java_source.html">HuffmanDecoder.java</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HuffmanDecoder_8java_source.html#l00058">58</a> of file <a class="el" href="HuffmanDecoder_8java_source.html">HuffmanDecoder.java</a>.</p>
+
+</div>
+</div>
+<a id="a6e951a5ea204b7c96ca1f676c5d77121"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e951a5ea204b7c96ca1f676c5d77121">&#9670;&nbsp;</a></span>decode() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ArrayList&lt;T&gt; <a class="el" href="classHuffmanDecoder.html">HuffmanDecoder</a>&lt; T &gt;.decode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classBitInputStream.html">BitInputStream</a>&#160;</td>
+          <td class="paramname"><em>input</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Decodes the bit stream of <a class="el" href="classHuffman.html" title="Represents a Huffman code map generator. ">Huffman</a> codes into a list of values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">input</td><td>Bit stream of <a class="el" href="classHuffman.html" title="Represents a Huffman code map generator. ">Huffman</a> codes </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>ArrayList of decoded values </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="HuffmanDecoder_8java_source.html#l00084">84</a> of file <a class="el" href="HuffmanDecoder_8java_source.html">HuffmanDecoder.java</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classHuffmanDecoder_a6e951a5ea204b7c96ca1f676c5d77121_cgraph.png" border="0" usemap="#classHuffmanDecoder_a6e951a5ea204b7c96ca1f676c5d77121_cgraph" alt=""/></div>
+<map name="classHuffmanDecoder_a6e951a5ea204b7c96ca1f676c5d77121_cgraph" id="classHuffmanDecoder_a6e951a5ea204b7c96ca1f676c5d77121_cgraph">
+<area shape="rect" id="node2" href="classBitInputStream.html#ac7f744985c148d8a22bcf98096da2a23" title="Read a bit. " alt="" coords="219,5,357,32"/>
+</map>
+</div>
 
 </div>
 </div>
