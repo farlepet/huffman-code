@@ -32,8 +32,6 @@ public class BitInputStream {
             this.currentBitMask = 0x80;
         }
 
-        System.out.println("BitMask: " + this.currentBitMask);
-
         int retVal = ((this.currentByte & this.currentBitMask) != 0) ? 1 : 0;
         this.currentBitMask  = (this.currentBitMask >> 1);
         return retVal;

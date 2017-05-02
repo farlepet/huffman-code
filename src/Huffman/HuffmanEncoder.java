@@ -1,4 +1,5 @@
 import java.util.*;
+import java.io.*;
 
 /**
  * \brief Facilitates the encoding of values to Huffman codes
@@ -35,7 +36,7 @@ public class HuffmanEncoder<T> {
      * @return output String of codes
      */
     public String encode(T[] input) {
-        if(input == null) throw new IllegalArgumentException("HuffmanEncoder.decode(T): input is null!");
+        if(input == null) throw new IllegalArgumentException("HuffmanEncoder.decode(T[]): input is null!");
 
         String output = "";
 
@@ -44,5 +45,33 @@ public class HuffmanEncoder<T> {
         }
 
         return output;
+    }
+
+    /**
+     * \brief Encodes an array of values to a bit stream
+     * 
+     * @param input Input array of values to encode
+     * @param output Bit stream to write codes to
+     * @return output String of codes
+     */
+    public void encode(T[] input, BitOutputStream output) {
+        if(input == null)  throw new IllegalArgumentException("HuffmanEncoder.decode(T[],BitOutputStream): input is null!");
+        if(output == null) throw new IllegalArgumentException("HuffmanEncoder.decode(T[],BitOutputStream): output is null!");
+
+        try {
+            for(int i = 0; i < input.length; i++) {
+                String code = this.valueToCode.get(input[i]);
+                for(int j = 0; j < code.length(); j++) {
+                    if(code.charAt(j) == '1') {
+                        output.write(1);
+                    } else {
+                        output.write(0);
+                    }
+                }
+            }
+        }
+        catch(IOException e) {
+            throw new RuntimeException("HufmanEncoder.encode(T[],BitOutputStream): Error while writing to BitOutputStream: " + e.getMessage());
+        }
     }
 }
