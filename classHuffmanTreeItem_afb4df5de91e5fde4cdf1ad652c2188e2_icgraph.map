@@ -1,4 +1,4 @@
 <map id="HuffmanTreeItem.getRightChild" name="HuffmanTreeItem.getRightChild">
-<area shape="rect" id="node2" href="$classHuffman.html#a32ae6582411770d2910e41fd72282e6e" title="Huffman.generateMap" alt="" coords="228,13,379,39"/>
-<area shape="rect" id="node3" href="$classHuffmanEncoder.html#a3c9e2764e563929519a5e157071621c7" title="HuffmanEncoder.HuffmanEncoder" alt="" coords="427,13,647,39"/>
+<area shape="rect" id="node2" href="$classHuffman.html#a32ae6582411770d2910e41fd72282e6e" title="Generates and returns a code map, mapping every item to a binary string. " alt="" coords="228,13,379,39"/>
+<area shape="rect" id="node3" href="$classHuffmanEncoder.html#a3c9e2764e563929519a5e157071621c7" title="Creates a new instance of HuffmanEncoder using the given Huffman object. " alt="" coords="427,13,647,39"/>
 </map>

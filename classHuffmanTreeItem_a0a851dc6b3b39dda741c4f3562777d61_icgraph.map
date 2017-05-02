@@ -1,5 +1,5 @@
 <map id="HuffmanTreeItem.getCount" name="HuffmanTreeItem.getCount">
-<area shape="rect" id="node2" href="$classHuffmanTreeItem.html#a140622c7d5f611ed3b240f38b0ca0f43" title="HuffmanTreeItem.setCount\lFromChildren" alt="" coords="239,5,417,47"/>
-<area shape="rect" id="node4" href="$classHuffmanTreeItem.html#ae07a84abcd01ee03c31753f16cf89f48" title="HuffmanTreeItem.compareTo" alt="" coords="232,71,424,98"/>
-<area shape="rect" id="node3" href="$classHuffmanTree.html#ae47190ff29b899d649c0dab686988ecc" title="HuffmanTree.generateTree" alt="" coords="472,13,649,39"/>
+<area shape="rect" id="node2" href="$classHuffmanTreeItem.html#a140622c7d5f611ed3b240f38b0ca0f43" title="Sets the count based on the count of it&#39;s children. " alt="" coords="239,5,417,47"/>
+<area shape="rect" id="node4" href="$classHuffmanTreeItem.html#ae07a84abcd01ee03c31753f16cf89f48" title="Compares count to another HuffmanTreeItem. " alt="" coords="232,71,424,98"/>
+<area shape="rect" id="node3" href="$classHuffmanTree.html#ae47190ff29b899d649c0dab686988ecc" title="Generates a tree from the given tree items. " alt="" coords="472,13,649,39"/>
 </map>
